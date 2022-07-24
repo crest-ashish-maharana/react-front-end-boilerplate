@@ -1,6 +1,6 @@
 ----------------------------------->
 Steps For Creating this Boilerplate
------------------------------------>
+<------------------------------------
 
 - npx create-react-app app-name
 - npm install @reduxjs/tookit react-redux redux-saga
