@@ -18,12 +18,12 @@ export default function NotFound() {
               <div className="container">
                   <div className="not-found-pg-content pt-5 pb-4">
                       <figure className="my-3">
-                          <img alt="404 image" src='images/404-img.png' />
+                          <img alt="404 image" src='images/404-img.png' height={200}/>
                       </figure>
                       <h1>
                           <FormattedMessage {...messages.header} />
                       </h1>
-                      <a href={'/'} className="back-to-home">Back to Home</a>
+                      <a href={'/'} className="back-to-home">Back to Dashboard</a>
                   </div>
               </div>
           </div>
