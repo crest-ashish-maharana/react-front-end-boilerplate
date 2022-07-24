@@ -40,7 +40,7 @@ import { translationMessages } from './i18n';
 const initialState = {};
 const store = configureStore(initialState);
 const MOUNT_NODE = document.getElementById('root');
-
+console.log("Store=>\n", store);
 const render = (messages) => {
     let persist = persistStore(store);
     ReactDOM.render(
